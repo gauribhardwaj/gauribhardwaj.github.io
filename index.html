@@ -1,0 +1,384 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Gauri Bhardwaj</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	
+	
+	</head>
+	<body class="is-preload">
+
+		<audio controls autoplay style="display:none;" loop>
+			<source src="images/fuzz.mp3" type="audio/mp3">
+			<source src="images/fuzz.mp3" type="audio/mpeg">
+		  </audio>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<!-- <header id="header" class="alt">
+						<a href="index.html" class="logo"><strong></strong> <span>SKYWEEIS</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header> -->
+
+				
+					
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html#pp">Home</a></li>
+							<li><a href="landing.html">Landing</a></li>
+							<li><a href="generic.html">Generic</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					</nav>
+					
+					<div id="bubuBody">
+						<section id="bubu">
+							<img src="./images/stars.png" id="stars" alt="stars" />
+							<img src="./images/moon.png" id="moon" alt="moon" />
+							<img src="./images/mountains_behind.png" id="mountains_behind" />
+							<h2 id="text">
+								&nbsp; <br>
+								 ☁ <br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;☁ <br>
+								&nbsp; <br>
+								&nbsp; <br>
+							</h2>
+							<!-- <a href="#sec" id="btn">Explore</a> -->
+							<img src="./images/mountains_front.png" id="mountains_front" />
+						  </section>
+					</div>
+					<script>
+						let stars = document.getElementById("stars");
+						let moon = document.getElementById("moon");
+						let mountains_front = document.getElementById("mountains_front");
+						let mountains_behind = document.getElementById("mountains_behind");
+						let text = document.getElementById("text");
+						let btn = document.getElementById("btn");
+						let header = document.querySelector("header");
+				  
+						window.addEventListener("scroll", function () {
+						  let value = window.scrollY;
+				  
+						  stars.style.left = value * 0.25 + "px";
+						  moon.style.top = value * 1.05 + "px";
+				  
+						  mountains_behind.style.top = value * 0.5 + "px";
+						  mountains_front.style.top = value * 0 + "px";
+				  
+						  text.style.marginRight = value * 4 + "px";
+						  text.style.marginTop = value * 1.5 + "px";
+						 // btn.style.marginTop = value * 1.5 + "px";
+				  
+						  header.style.top = value * 0.5 + "px";
+						});
+					  </script>
+					
+					  
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+
+								<div id="container-main">
+									<div id="header-container">
+										<div id="hi-container">
+											<h1>Hi!  My name is,  <span id="bearHug"></span> <br/>  Gauri Bhardwaj </h1>
+										</div>
+										
+	
+										<div id="pp-container">
+											<img src="images/yellow.png" id="pp" alt="">
+										</div>
+									</div>
+								</div>
+								
+							</header>
+							<div class="content">
+								<p>An experienced member with a demonstrated history of working in non-profit orgainsation management industry.
+								</p>
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">Projects: Hover to Learn More</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/databaseChecker.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3 class="projectTit">Database Vunerability Checker</h3>
+										
+										<p class="projectDes">
+											Understanding the framework of the websites by exploiting the known vulnerabilities to get access into database and finding information 
+										</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/emailChecker.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3 class="projectTit">Email Vunerability Checker</h3>
+										<p class="projectDes">
+											Exploring the security of an email, disposing email and using a secure mail
+										</p>
+									</header>
+								</article>
+								
+								<article>
+									<span class="image">
+										<img src="images/digitClassifier.png" alt="" />
+									</span>
+									<header class="major">
+										<h3 class="projectTit">Handwritten Digit Classifier</h3>
+										<p class="projectDes">
+											Neural Network For Handwritten Digits Classification with the help of Python and Tensorflow. By building simple neural networks, with only an input and an ouput layer, and adding a hidden layer afterwards to check how the performance of our model changes.
+										</p>
+									</header>
+								</article>
+
+								<article>
+									<span class="image">
+										<img src="images/facemaskDetector.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3 class="projectTit">Face Mask Detection</h3>
+										<p class="projectDes">
+											Face Mask Detector using Convoluted Neural Networks, Python, OpenCV, and TensorFlow.
+										</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/agence-olloweb-qfp4-Ud6Fyg-unsplash.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3 class="projectTit">Data-Analytics-on-Rural-Education</h3>
+										<p class="projectDes">
+											Rural India plays a vital role in economic growth of the country through not only education but also through agriculture, self-employment, construction, services, etc.
+												The developments in education sector provide suitable platform for applying data analytics in Rural Gujarat (India).
+										</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/e.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3 class="projectTit">E-Health care management system</h3>
+										<p class="projectDes">
+											The system forms an online visiting platform for doctors and patients.
+Use of this application roots out the problems such as data missing, information miss-match, long lane of patients in hospital etc.
+										</p>
+									</header>
+								</article>
+								
+								<article>
+									<span class="image">
+										<img src="images/heartbeatSensor.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3 class="projectTit">Heartbeat Sensor</h3>
+										<p class="projectDes">
+											A Health monitoring system made with the help of an Arduino UNO that tracks the user's heartbeat and body temperature.
+										</p>
+									</header>
+								</article>
+
+								<article>
+									<span class="image">
+										<img src="images/Hop.png" alt="" />
+									</span>
+									<header class="major">
+										<h3 class="projectTit">Chrome Extension Game</h3>
+										<p class="projectDes">
+											A chrome extension mini-game inspired by the "No Internet" game on the chrome browser.
+										</p>
+									</header>
+								</article>
+
+								<!-- Old Article : Has Project Categories and Desc comes on hover
+								<article>
+									<span class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3 class="projectTit"><a href="landing.html" class="link">Tempus</a></h3>
+										<p class="projectCat">feugiat amet tempus</p>
+										<p class="projectDes">
+											Tempus Des
+										</p>
+									</header>
+								</article>
+							</section> -->
+							
+
+					</div>
+
+					<!-- Two -->
+					<div>
+						  <!--===== SKILLS =====-->
+						  <section class="skills section" id="skills">
+							
+							<div class="skills__container bd-grid">          
+								<div>
+									<h1 class="skills__subtitle">TECH STACK I AM FAMILIAR WITH</h1>
+									<p class="skills__text"></p>
+									<div class="skills__data">
+										<div class="skills__names">
+											<i class='bx bxl-html5 skills__icon'></i>
+											<span class="skills__name">HTML5</span>
+										</div>
+										<div class="skills__bar skills__html">
+			
+										</div>
+										<div>
+											<span class="skills__percentage">95%</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<div class="skills__names">
+											<i class='bx bxl-css3 skills__icon'></i>
+											<span class="skills__name">CSS3</span>
+										</div>
+										<div class="skills__bar skills__css">
+											
+										</div>
+										<div>
+											<span class="skills__percentage">85%</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<div class="skills__names">
+											<i class='bx bxl-javascript skills__icon' ></i>
+											<span class="skills__name">JAVASCRIPT</span>
+										</div>
+										<div class="skills__bar skills__js">
+											
+										</div>
+										<div>
+											<span class="skills__percentage">65%</span>
+										</div>
+									</div>
+									<div class="skills__data">
+										<div class="skills__names">
+											<i class='bx bxs-paint skills__icon'></i>
+											<span class="skills__name">UX/UI</span>
+										</div>
+										<div class="skills__bar skills__ux">
+											
+										</div>
+										<div>
+											<span class="skills__percentage">85%</span>
+										</div>
+									</div>
+								</div>
+								
+								<div>              
+									<img src="assets/img/work3.jpg" alt="" class="skills__img">
+								</div>
+							</div>
+						</section>
+					</div>
+					
+
+				<!-- Contact -->
+					<!-- <section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">gauribhardwaj1211@gmail.com</a>
+									</div>
+								</section>
+								
+							</section>
+						</div>
+					</section> -->
+
+					<div id="my-email">
+						<div class="contact-method">
+							<span class="icon solid alt fa-envelope"></span>
+							<h3>Email</h3>
+							<a href="#">gauribhardwaj1211@gmail.com</a>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://twitter.com/Gauri_Bhardwaj_" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.instagram.com/mylifeasgauriii/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/skyweeis" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/gauri-bhardwaj-b6355a1b8/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; </li><li> <a href="https://html5up.net">MADE WITH LOVE</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/custom.js"></script>
+
+	</body>
+</html>
