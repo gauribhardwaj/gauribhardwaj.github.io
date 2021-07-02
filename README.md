@@ -1,6 +1,6 @@
-hello everyone
+Hello Everyone
 
-this is my portfolio website
+This is my portfolio website
 
-gauribhardwaj.github.io
+https://gauribhardwaj.github.io/
  
